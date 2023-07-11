@@ -25,3 +25,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  padding: 10px 5px;
+  top: 0;
+  height: 20px;
+  width: 10px;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
